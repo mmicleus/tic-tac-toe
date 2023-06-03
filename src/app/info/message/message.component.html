@@ -1,0 +1,6 @@
+<div *ngIf="active" class="text-light fw-bold fs-3 text-left mt-3 mb-3">
+  <p *ngIf="!isDraw">
+    Player <span>{{ winner }}</span> won the game!
+  </p>
+  <p *ngIf="isDraw">It's a Draw</p>
+</div>

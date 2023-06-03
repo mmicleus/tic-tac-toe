@@ -1,0 +1,11 @@
+<div
+  class="cell border border-secondary rounded d-flex justify-content-center align-items-center fw-bold fs-1 text-light"
+  [ngClass]="{
+    green: content === 'x',
+    blue: content === 'o',
+    purple: content === ' '
+  }"
+  (click)="onClick()"
+>
+  {{ content }}
+</div>

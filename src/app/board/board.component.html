@@ -1,0 +1,8 @@
+<div class="board">
+  <app-cell
+    *ngFor="let cell of cells; let i = index"
+    [content]="cell"
+    [index]="i"
+  >
+  </app-cell>
+</div>
