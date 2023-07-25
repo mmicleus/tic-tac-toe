@@ -1,0 +1,11 @@
+.board {
+  width: 30%;
+  aspect-ratio: 1/1;
+  /* margin: auto; */
+  background-color: transparent;
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}

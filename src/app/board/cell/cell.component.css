@@ -1,0 +1,16 @@
+.cell {
+  width: 100%;
+  height: 100%;
+}
+
+.purple {
+  background-color: blueviolet;
+}
+
+.green {
+  background-color: lightgreen;
+}
+
+.blue {
+  background-color: lightskyblue;
+}
